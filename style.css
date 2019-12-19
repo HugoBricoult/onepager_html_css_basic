@@ -1,0 +1,261 @@
+    body {
+        margin: 0;
+        font-family: 'Scope One', serif;
+    }
+    
+    header {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background-image: url(img/nenu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.65);
+        background-attachment: fixed;
+    }
+    
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    
+    header a:first-child {
+        text-decoration: none;
+        color: #588528;
+        font-size: 1.25em;
+    }
+    
+    header a:nth-child(2) {
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+    }
+    
+    header h1 {
+        color: white;
+        width: 100%;
+        text-align: center;
+        font-size: 3.7em;
+        padding-top: 70px;
+    }
+    
+    header p {
+        text-align: center;
+        color: white;
+        font-size: 1.6em;
+        margin-left: 22%;
+        margin-right: 22%;
+        margin-top: -30px;
+        line-height: 1.7em;
+    }
+    
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    header button {
+        background-color: #588528;
+        border: none;
+        border-radius: 5px;
+        padding: 20px;
+        color: white;
+        width: fit-content;
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        font-size: 1.2em;
+        font-weight: bold;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    
+    .section2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 30px;
+    }
+    
+    .section2 img {
+        padding: 5px;
+        border-radius: 100%;
+        margin: 50px;
+        margin-top: auto;
+        border: 1px solid lightgray;
+    }
+    
+    .section2 section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+    
+    .section2 button {
+        background-color: #588528;
+        border: none;
+        border-radius: 5px;
+        padding: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-right: auto;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .section2 p {
+        color: gray;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    
+    .section3 {
+        display: flex;
+        background-image: url(img/branche.jpg);
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.80);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        flex-direction: row;
+        justify-content: center;
+        padding: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .section3 img {
+        border-radius: 100%;
+        margin: 50px;
+        border: 5px solid #588528;
+    }
+    
+    .section3 section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+    
+    .section3 li {
+        padding-top: 20px;
+        color: white;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    
+    .section3 h2 {
+        color: white;
+    }
+    
+    .section3 button {
+        background-color: white;
+        border: none;
+        font-size: 1em;
+        padding: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 5px;
+        margin-right: auto;
+        color: #588528;
+    }
+    
+    .section4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .horiz {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+    
+    .horiz img {
+        padding: 5px;
+        border-radius: 100%;
+        border: 1px solid lightgray;
+        width: 20vw;
+    }
+    
+    .horiz section {
+        margin: 10px;
+    }
+    
+    .horiz button {
+        background-color: #588528;
+        border: none;
+        border-radius: 5px;
+        padding: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-right: auto;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .section5 {
+        background-color: lightgray;
+        display: block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    .section5 h2 {
+        padding: 50px;
+    }
+    
+    .section5 li {
+        list-style-type: none;
+        padding: 15px;
+    }
+    
+    .section5 a {
+        text-decoration: none;
+        color: gray;
+    }
+    
+    .section5 hr {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    footer ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    footer li {
+        list-style-type: none;
+        padding: 15px;
+        font-size: 30px;
+    }
+    
+    footer a {
+        color: gray;
+    }
+    
+    footer a:hover {
+        color: #588528;
+    }
+    
+    footer p {
+        text-align: center;
+    }
